@@ -43,7 +43,7 @@
 					<tr>
 						<td>{{ $product['id'] }}</td>
 						<td>
-							<img src="{{ $product['images'][3] ?? '#' }}" alt="Image" width="50"
+							<img src="{{ $product['images'][2] ?? '#' }}" alt="Image" width="50"
 								onerror="this.src='https://via.placeholder.com/50';">
 						</td>
 						<td>{{ $product['title'] ?? 'No data found' }}</td>

@@ -13,7 +13,7 @@ class ProductController extends Controller
     public function getProducts(Request $request)
     {
         try {
-            $limit = $request->input('limit', 200);
+            $limit = $request->input('limit', 20);
             $category = $request->input('category', 'all');
 
             if ($category === 'all') {
